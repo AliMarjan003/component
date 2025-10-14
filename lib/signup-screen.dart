@@ -18,12 +18,12 @@ TextEditingController NumberConntroller=TextEditingController();
       body:
       Column(
         children: [
-          Textfieldwidget(Text: "Enter Your First name", controller: Namecontroller),
-          Textfieldwidget(Text: "Enter Your last name", controller: Namecontroller),
-          Textfieldwidget(Text: "Enter Your Mobile Number", controller: NumberConntroller),
-          Textfieldwidget(Text: "Enter Your Gmail", controller: Gmailcontroller),
-          Textfieldwidget(Text: "Enter Your Password", controller: Passwordcontroller),
-          Loginbutton(text: "Signup")
+          // Textfieldwidget(Text: "Enter Your First name", controller: Namecontroller,preficIcon: IconData(codePoint),),
+          // Textfieldwidget(Text: "Enter Your last name", controller: Namecontroller),
+          // Textfieldwidget(Text: "Enter Your Mobile Number", controller: NumberConntroller),
+          // Textfieldwidget(Text: "Enter Your Gmail", controller: Gmailcontroller),
+          // Textfieldwidget(Text: "Enter Your Password", controller: Passwordcontroller),
+          // Loginbutton(text: "Signup")
         ],
       ),
     );

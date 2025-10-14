@@ -1,20 +1,34 @@
 import 'package:flutter/material.dart';
 
 class Loginbutton extends StatelessWidget {
-  Loginbutton({super.key,required this.text});
-String text;
+  String text;
+  VoidCallback ontap;
+  Color buttonColor;
+  double height;
+  double borderRadius;
+  Color textColor;
+  double fontSize;
+  Loginbutton({super.key,required this.text, required this.ontap,
+    this.buttonColor=Colors.orangeAccent,
+  this.height=50,
+    this.borderRadius=10,
+    this.fontSize=25,
+    this.textColor=Colors.white
+  });
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: (){},
+      onTap: ontap,
       child: Container(
-        height: 50,
+        margin: EdgeInsets.symmetric(horizontal: 18),
+        height: height,
         width: double.infinity,
         decoration: BoxDecoration(
-          color: Colors.orangeAccent,
-          borderRadius: BorderRadius.circular(15),
+          color: buttonColor,
+          borderRadius: BorderRadius.circular(borderRadius),
         ),
-        child: Center(child: Text(text,style: TextStyle(color: Colors.white,fontSize: 25),),),
+        child: Center(child: Text(text,style: TextStyle(color: textColor,fontSize:fontSize),),),
       ),
     );
   }
