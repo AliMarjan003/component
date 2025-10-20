@@ -1,5 +1,5 @@
-import 'package:component/insert.dart';
-import 'package:component/signup-screen.dart';
+import 'package:component/views/auth_view/insert.dart';
+import 'package:component/views/auth_view/signup-screen.dart';
 import 'package:flutter/material.dart';
 void main()
 {

@@ -1,5 +1,5 @@
-import 'package:component/Textfield-widget.dart';
-import 'package:component/login-button.dart';
+import 'package:component/components/widgets/Textfield-widget.dart';
+import 'package:component/components/widgets/login-button.dart';
 import 'package:flutter/material.dart';
 
 
@@ -12,7 +12,7 @@ TextEditingController PasswordController=TextEditingController();
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xffF54927),
-      appBar: AppBar(title: Text("Login",style: TextStyle(color: Color(0xffCC7F70)),),
+      appBar: AppBar(title: Text("Login",style: TextStyle(color: Color(0xffBC7F70)),),
       centerTitle: true,),
       body: Column(
         children: [

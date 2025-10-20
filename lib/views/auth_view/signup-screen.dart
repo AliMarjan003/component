@@ -1,5 +1,5 @@
-import 'package:component/Textfield-widget.dart';
-import 'package:component/login-button.dart';
+import 'package:component/components/widgets/Textfield-widget.dart';
+import 'package:component/components/widgets/login-button.dart';
 import 'package:flutter/material.dart';
 
 class Signupscreen extends StatelessWidget {

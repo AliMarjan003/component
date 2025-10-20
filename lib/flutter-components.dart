@@ -1,5 +1,4 @@
-import 'package:component/login-button.dart';
-import 'package:component/login-text-widget.dart';
+import 'package:component/controller/widgets/login-text-widget.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
