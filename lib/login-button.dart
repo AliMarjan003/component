@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Loginbutton extends StatelessWidget {
+class Loginbutton extends StatelessWidget
+{
   String text;
   VoidCallback ontap;
   Color buttonColor;
@@ -17,7 +18,8 @@ class Loginbutton extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return InkWell(
       onTap: ontap,
       child: Container(

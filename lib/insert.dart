@@ -11,7 +11,8 @@ TextEditingController PasswordController=TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Login"),
+      backgroundColor: Color(0xffF54927),
+      appBar: AppBar(title: Text("Login",style: TextStyle(color: Color(0xffCC7F70)),),
       centerTitle: true,),
       body: Column(
         children: [
